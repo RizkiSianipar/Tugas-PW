@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="icon1.jpg">
+        <title>Konversi Suhu</title>
+        <link rel="stylesheet" type="text/css" href="Helper.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="gaya">
+        <h1>Pilih Koversi Mana Yang Ingin Anda Lakukan</h1>
+        <h2><select id="Konversi"></h2>
+            <optgroup label="Suhu Celcius"></optgroup>
+                <option value="cf">Dari Celcius ke Fahrenheit</option><br>
+                <option value="cr">Dari Celcius ke Reamur</option><br>
+                <option value="ck">Dari Celcius ke Kelvin</option><br>
+            <optgroup label="Suhu Fahrenheit"></optgroup>
+                <option value="fc">Dari Fahrenheit ke Celcius</option><br>
+                <option value="fr">Dari Fahrenheit ke Reamur</option><br>
+                <option value="fk">Dari Fahrenheit ke Kelvin</option><br>
+            <optgroup label="Suhu Reamur"></optgroup>
+                <option value="rc">Dari Reamur ke Celcius</option><br>
+                <option value="rf">Dari Reamur ke Fahrenheit</option><br>
+                <option value="rk">Dari Reamur ke Kelvin</option><br>
+            <optgroup label="Suhu Kelvin"></optgroup>
+                <option value="kc">Dari Kelvin ke Celcius</option><br>
+                <option value="kf">Dari Kelvin ke Fahrenheit</option><br>
+                <option value="kr">Dari Kelvin ke Reamur</option><br>
+            </select><br />
+        <h2>Masukkan Nilai Suhu Yang Ingin Dikonversi </h2><br>
+        <input type="text" id="angka"><br>
+        <button onclick="suhu()" style=" width: 20%;
+            height: 50px; font-size: 30px;">GO</button>
+            <br><br>
+            <h4 id="akhir"></h4>
+            </div>
+
+    </div>
+    </body>
+    </html>
